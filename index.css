@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+}
+.login {
+	display: flex;
+	margin-left: 862px;
+}
+
+.passwordLogin, .email {
+	margin-top: -49px;
+	margin-left: 10px;
+}
+
+.form {
+	display: block;
+	margin-left: 862px;
+	margin-top: 80px;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+}
+.firstLastPassword {
+	display: flex;
+}
+
+.gender {
+	display: flex;
+	margin-top: 15px;
+}
+
+nav {
+	background: #1500B2;
+}
+
+h1 {
+	color: #A00000;
+	font-size: 15px;
+	color: gray;
+}
+@media (min-width: 992px) {
+	.firstName {
+		display: flex;
+
+	}
+	.lastName {
+		display: flex;
+		margin-top: 20px;
+	}
+	.pass {
+		display: flex;
+		margin-top: 20px;
+	}
+
+	.gender {
+		margin-left: -7px;
+		margin-top: -5px;
+	}
+	
+	.textarea {
+		margin-left: 170px;
+		border-radius: 7px;
+	}
+	
+	#firstName {
+ 		width: 194px;
+   	    height: 35px;
+   	     padding: 0 10px;
+   	    margin-left: 0px;
+    	margin-top: -6px; 	
+		border-radius: 7px;
+		border: 1px solid gray;
+	}
+
+	#lastName {
+		width: 194px;
+   	    height: 35px;
+   	    padding: 0 10px;
+   	    margin-left: 8px;
+    	margin-top: -26px;
+		border-radius: 7px;
+		border: 1px solid gray;
+	}
+
+	#password{
+		width: 418px;
+   	    height: 35px;
+   	    display: block;
+   	    padding: 0 10px;
+		margin-top: 44px;
+		margin-left: -440px;
+		border-radius: 7px;
+		border: 1px solid gray;
+		
+	} 
+
+	#confirmPassword  {
+		width: 418px;
+   	    height: 35px;
+   	    padding: 0 10px;
+		margin-top: 15px;
+		margin-left: -440px;
+		border-radius: 7px;
+		border: 1px solid gray;
+	}
+	
+	.loginPassword {
+		display: block;
+	}
+
+	#textarea {
+		width: 300px;
+		border-radius: 10px;
+		padding: 10px 10px;
+	}
+	.male {
+		display: block;
+	}
+
+	.female {
+		display: block;
+	}
+
+	.custom {
+		display: block;
+	}
+
+	.button {
+		display: block;
+		padding: 7px 33px;
+		background: #008000;
+		color: #fff;
+		border: #008000;
+		margin-left: 862px;
+		margin-top: 15px;
+
+	}
+}
